@@ -8,5 +8,4 @@
 Most browsers(Firefox,Chrome等) 和 Internet Explorer 10+.
 
 ## **License**
-[MIT][1]
-  [1]: https://opensource.org/licenses/MIT
+[MIT](http://opensource.org/licenses/MIT)
