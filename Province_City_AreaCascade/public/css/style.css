@@ -1,0 +1,35 @@
+.container{
+	width: 1200px;
+	position: relative;
+	text-align: center;
+}
+
+.main_container{
+	display: block;
+	margin-top: 15px;
+}
+
+.col-center-block {  
+    float: none;  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+}  
+
+.main_container label {
+	float: left;
+	margin: 5px auto;
+}
+
+.province_select,
+.city_select,
+.district_select {
+	margin: 10px auto;
+}
+
+.province_select,
+.city_select,
+.district_select option {
+	height: auto;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="renderer" content="webkit">
+		<link rel="stylesheet" type="text/css" href="../public/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="../public/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../public/css/style.css" />
+		<script type="text/javascript" src="../public/js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="../public/js/distpicker.js"></script>
+		<title>Distpicker省市区三级级联</title>
+
+	</head>
+
+	<body>
+		<div class="container">
+			<h3>Distpicker省市区三级级联</h3>
+			<div class="row main_container">
+				<!--定义省市区三级级联-->
+				<div class="col-xs-6 col-md-4 col-center-block" data-toggle="distpicker">
+					<div class="province_select">
+						<label>省份选择：</label>
+						<select class="form-control" id="eprovinceName" data-province="---- 选择省 ----" name="provinceName"></select>
+					</div>
+					<div class="city_select">
+						<label>城市选择：</label>
+						<select class="form-control" id="ecityName" data-city="---- 选择市 ----" name="cityName"></select>
+
+					</div>
+					<div class="district_select">
+						<label>市区选择：</label>
+						<select class="form-control" id="edistrictName" data-district="---- 选择区 ----" name="districtName"></select>
+					</div>
+				</div>
+				<!--//定义省市区三级级联-->
+				
+				<!--确定按钮-->
+				<button class="btn btn-default" type="submit">确定</button>
+				<!--//确定按钮-->
+				
+				<!--输出选择项-->
+				<div class="text-muted">
+					<p></p>
+				</div>
+			</div>
+
+		</div>
+	</body>
+
+</html>

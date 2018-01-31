@@ -1,0 +1,66 @@
+body {
+	padding: 10px;
+}
+
+.pick-area {
+	display: inline-block;
+}
+
+.a {
+	float: left;
+	width: 100%;
+	margin: 10px;
+}
+
+.a a {
+	float: left;
+	margin: 10px;
+}
+
+.a input {
+	float: left;
+	width: 400px;
+	padding: 10px;
+	margin: 10px;
+	outline-color: gold;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	margin: 5px;
+	color: #333;
+}
+
+h4 {
+	margin: 5px;
+	color: #666;
+	padding: 0 20px;
+	font-weight: 100;
+}
+
+.blank {
+	float: left;
+	width: 50%;
+	height: 400px;
+	background: cyan;
+	border-top: 1px solid #333;
+	margin-top: 50px;
+}
+
+.blank2 {
+	float: left;
+	width: 50%;
+	height: 400px;
+	background: lightpink;
+	border-top: 1px solid #333;
+	padding-top: 50px;
+}
+
+.box {
+	width: 100%;
+	overflow: hidden;
+	background: lightgreen;
+}
